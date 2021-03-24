@@ -28,15 +28,15 @@
     <VBox GridPane.rowIndex="2" GridPane.columnIndex="0" spacing="10">
         <HBox spacing="10" alignment="BASELINE_CENTER">
             <Label text="Student ID:"/>
-            <TextField promptText="ID" fx:id="studentIdField"/>
+            <TextField  fx:id="studentIdField"/>
             <Label text="Assignments:"/>
-            <TextField promptText="Assignments/100" fx:id="assignmentsField"/>
+            <TextField  fx:id="assignmentsField"/>
         </HBox>
         <HBox spacing="10" alignment="BASELINE_CENTER">
             <Label text="Midterm:"/>
-            <TextField promptText="Midterm/100" fx:id="midtermField"/>
+            <TextField  fx:id="midtermField"/>
             <Label text="Final exam:"/>
-            <TextField promptText="Final exam/100" fx:id="finalExamField"/>
+            <TextField fx:id="finalExamField"/>
         </HBox>
         <Button text="Add" onAction="#addStudentRecord"/>
     </VBox>
